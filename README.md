@@ -43,6 +43,7 @@ To protect the encryption material against *Confused Deputy* attacks, the KMS Ke
     }
   ]
 }
+```
 
 ## Execution Order
 
