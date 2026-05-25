@@ -43,3 +43,9 @@ To protect the encryption material against *Confused Deputy* attacks, the KMS Ke
     }
   ]
 }
+
+## Execution Order
+
+1. Navigate to `infra/`, run `terraform init` and `terraform apply`.
+2. Upload your sensitive test file to the generated S3 bucket.
+3. Navigate to `security-jobs/`, run `terraform init` and `terraform apply` to dispatch the scan.

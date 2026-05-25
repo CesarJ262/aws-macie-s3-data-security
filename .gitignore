@@ -1,0 +1,14 @@
+# Ignorar archivos de estado de Terraform (CONTIENEN DATOS SENSIBLES)
+*.tfstate
+*.tfstate.*
+
+# Ignorar la carpeta de plugins de Terraform (pesa mucho y se descarga con init)
+.terraform/
+
+# Ignorar archivos de variables sensibles (si llegas a usarlos)
+*.tfvars
+*.tfvars.json
+
+# Ignorar archivos temporales y logs
+.terraform.lock.hcl
+*.log
